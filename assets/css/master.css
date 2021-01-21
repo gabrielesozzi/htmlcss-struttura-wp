@@ -22,11 +22,22 @@ body.debug div[class^="col-"] > div {
 
 [class^="col-"] {
   float: left;
-  padding: 0 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-right: 10px;
+padding-left: 10px;
 }
 
 .col-100 {
   width: 100%
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-25 {
+  width: 25%;
 }
 
 .bg-pink {
@@ -37,6 +48,18 @@ body.debug div[class^="col-"] > div {
   background-color: #ffbb33;
 }
 
-.mar-top {
+/* .mar-top {
   margin-top: 5px;
+} */
+
+.blue {
+  background-color: blue;
+}
+
+.cyan {
+  background-color: #1a75ff;
+}
+
+.purple {
+  background-color: #b300b3;
 }
