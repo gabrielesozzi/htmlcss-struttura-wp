@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body.debug div[class^="col-"] > div {
+  height: 50px;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class^="col-"] {
+  float: left;
+  padding: 0 10px;
+}
+
+.col-100 {
+  width: 100%
+}
+
+.bg-pink {
+  background-color: pink;
+}
+
+.bg-brown {
+  background-color: #ffbb33;
+}
+
+.mar-top {
+  margin-top: 5px;
+}
