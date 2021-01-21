@@ -21,11 +21,8 @@ body.debug div[class^="col-"] > div {
 }
 
 [class^="col-"] {
-  float: left;
-padding-top: 10px;
-padding-bottom: 10px;
-padding-right: 10px;
-padding-left: 10px;
+float: left;
+padding: 15px 0;
 }
 
 .col-100 {
@@ -48,9 +45,9 @@ padding-left: 10px;
   background-color: #ffbb33;
 }
 
-/* .mar-top {
-  margin-top: 5px;
-} */
+.pad-left {
+  padding-left: 5px;
+}
 
 .blue {
   background-color: blue;
